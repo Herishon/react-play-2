@@ -14,6 +14,7 @@ const UseRef = () => {
       <h2>Use Ref</h2>
       <input type='text' value={inputValue} onChange={(e) => setInputValue(e.target.value)} placeholder='Count'/>
       <h2>Render count: {count.current}</h2>
+      <h3>Hi</h3>
     </>
   )
 }
